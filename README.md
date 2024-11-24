@@ -43,5 +43,3 @@ This project involves implementing Principal Component Analysis (PCA) from scrat
 - Explore additional dimensionality reduction techniques (like SVD, t-SNE, or UMAP).
 - Use temporal analysis with PCA on languages other than English.
 - Apply dimensionality reduction on an expanded sample size using more powerful hardware.
-
-=======
