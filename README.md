@@ -7,12 +7,13 @@ This project involves implementing Principal Component Analysis (PCA) from scrat
 - Reduce the dimensionality of word embeddings on different time periods.
 - Visualize changes in semantic relationships of words over time.
 - Quantify the "volatility" of certain words over time.
+- Quantify the co-occurrent patterns of word groups over time.
 
 ## Approach
 
 ### Data Preparation
 - Historical word embeddings for each decade (e.g., 1880 to 1980) were used.
-- The embeddings were subsampled, standardized, and reduced using PCA.
+- The embeddings were subsampled, preprocessed, standardized, and dim-reduced with PCA.
 
 ### PCA Implementation Steps
 1. **Standardization**: Center data by subtracting mean and scaling by standard deviation.
@@ -43,3 +44,4 @@ This project involves implementing Principal Component Analysis (PCA) from scrat
 - Explore additional dimensionality reduction techniques (like SVD, t-SNE, or UMAP).
 - Use temporal analysis with PCA on languages other than English.
 - Apply dimensionality reduction on an expanded sample size using more powerful hardware.
+- Performing additional quantitative analysis methods (like DTW, word-frequency analysis, KL-Divergence, or LDA).
