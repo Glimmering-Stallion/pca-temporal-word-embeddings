@@ -1,9 +1,12 @@
+# Ignore all files except specified ones
+*
+
 # Allow these specific files/folders
 !pca_word_embeddings.ipynb
 !README.md
-
-# Ignore all files except specified ones
-*
+!docs/
+!docs/**
+!docs/assets/**
 
 # Ignore these specific files/folders
 sgns/*
