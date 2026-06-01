@@ -13,6 +13,10 @@ sgns/*
 sgns.zip
 glove.6B.100d.txt
 
+# MacOS junk
+.DS_Store
+**/.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
